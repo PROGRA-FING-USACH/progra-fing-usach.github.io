@@ -1,30 +1,30 @@
 function definirEstilos(){
 	var estilo = document.createElement("STYLE");
 	var texto = document.createTextNode("\
-		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');\
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');\
 		#pTitulo{\
 			font-size: 24px;\
-			font-family: 'Montserrat', sans-serif;\
+			font-family: 'Roboto', sans-serif;\
 		}\
 		#pTitulo2{\
 			font-size: 22px;\
-			font-family: 'Montserrat', sans-serif;\
+			font-family: 'Roboto', sans-serif;\
 		}\
 		#pDescripcion{\
 			font-size: 16px;\
-			font-family: 'Montserrat', sans-serif;\
+			font-family: 'Roboto', sans-serif;\
 			text-align: justify;\
 			margin-left: 10px;\
 		}\
 		#pDescripcionV{\
 			font-size: 16px;\
-			font-family: 'Montserrat', sans-serif;\
+			font-family: 'Roboto', sans-serif;\
 			text-align: center;\
 			margin-left: 10px;\
 		}\
 		#ulDescripcion{\
 			font-size: 16px;\
-			font-family: 'Montserrat', sans-serif;\
+			font-family: 'Roboto', sans-serif;\
 			text-align: justify;\
 		}\
 	");
