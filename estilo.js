@@ -3,11 +3,6 @@ function definirEstilos(){
 	var texto = document.createTextNode("\
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\
 		
-		:root {\
-  			--color1: #2EC4B6;\
-  			--color2: ##E99119;\
-		}\
-
 		#pTitulo{\
 			font-size: 24px;\
 			font-family: 'Roboto', sans-serif;\
@@ -28,7 +23,7 @@ function definirEstilos(){
 			font-size: 22px;\
 			font-family: 'Roboto', sans-serif;\
     			font-weight: bold;\
-    			border-left: 5px solid var(--color1);\
+    			border-left: 5px solid #2EC4B6;;\
     			text-transform: uppercase;\
     			padding: 5px;\
 		}\
