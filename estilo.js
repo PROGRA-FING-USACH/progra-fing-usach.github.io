@@ -5,6 +5,7 @@ function definirEstilos(){
 		#pTitulo{\
 			font-size: 24px;\
 			font-family: 'Roboto', sans-serif;\
+			font-weight: 900;\
 		}\
 		#pTitulo2{\
 			font-size: 22px;\
