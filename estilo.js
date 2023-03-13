@@ -9,7 +9,6 @@ function definirEstilos(){
 		}\
 
 		#pTitulo{\
-			color: #E99119;\
 			font-size: 24px;\
 			font-family: 'Roboto', sans-serif;\
 			font-weight: lighter;\
