@@ -8,6 +8,7 @@ function definirEstilos(){
 			font-family: 'Roboto', sans-serif;\
 			font-weight: lighter;\
 		}\
+
 		#pTitulo2{\
 			font-size: 22px;\
 			font-family: 'Roboto', sans-serif;\
@@ -18,27 +19,20 @@ function definirEstilos(){
 			font-family: 'Roboto', sans-serif;\
 		}\
 
-
-		#pTituloTema{\
-			font-size: 22px;\
-			font-family: 'Roboto', sans-serif;\
-    			font-weight: bold;\
-    			border-left: 5px solid #2EC4B6;;\
-    			text-transform: uppercase;\
-    			padding: 5px;\
-		}\
 		#pDescripcion{\
 			font-size: 16px;\
 			font-family: 'Roboto', sans-serif;\
 			text-align: justify;\
 			margin-left: 10px;\
 		}\
+
 		#pDescripcionV{\
 			font-size: 16px;\
 			font-family: 'Roboto', sans-serif;\
 			text-align: center;\
 			margin-left: 10px;\
 		}\
+
 		#ulDescripcion{\
 			font-size: 16px;\
 			font-family: 'Roboto', sans-serif;\
