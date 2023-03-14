@@ -80,6 +80,7 @@
 ### PLANIFICACIÓN SEMANA A SEMANA
 
 #### CALENDARIO DE LECTURAS
+
 | Semana      | Fecha      | Lecturas |
 | ------ | ---------- | ------------------------------ |
 | 1      | 13/03/2023 | 01. Introducción a Python | 
