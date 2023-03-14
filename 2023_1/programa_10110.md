@@ -1,4 +1,4 @@
-<p><img src="https://fing.usach.cl/sites/ingenieria/files/logo-fing.png" alt="LogoUSACH" width="40%" align="right" hspace="10px" vspace="0px"></p>
+<p><img src="https://progra-fing-usach.github.io/IMGs/logo-fing.png" alt="LogoUSACH" width="40%" align="right" hspace="10px" vspace="0px"></p>
 
 # 10110 - FUNDAMENTOS DE COMPUTACIÓN Y PROGRAMACIÓN
 
@@ -43,11 +43,18 @@ La asignatura aporta a nivel inicial en la formación de las siguientes habilida
 **Actitudes y valores:**
 * Comprensión de la responsabilidad profesional, social y ética en todo contexto/ Comprensión de la responsabilidad profesional, social y ética en todo contexto en que se desenvuelve (nivel básico).
 * Adaptabilidad a cambios y contextos diversos (nivel básico).
+* 
+### 3.1 ASOCIADOS A LA ASIGNATURA
+**Resultado de aprendizaje general:**
+Elaborar programas computacionales para la resolución de problemas de ingeniería aplicada a distintos contextos, usando lenguaje de programación Python, mostrando preocupación por la generalidad y las buenas prácticas de programación, de forma crítica, pertinente y creativa. 
+**Resultados de aprendizaje específicos:**
+Al final de la asignatura el estudiante habrá conseguido:
+– Construir scripts que realicen cálculos matemáticos y operaciones sobre texto que requieren el uso de estructuras de control de decisión e iteración.
+– Elaborar programas que resulten de la aplicación de abstracción a un enunciado que requiere el uso de abstracción de datos y procesos, implementados con objetos nativos del lenguaje.
+– Desarrollar soluciones de problemas acotados del mundo real y la ingeniería, que requieran tratamiento de datos, considerando los elementos y sintaxis propios del lenguaje de programación Python.
 
-#SEGUIR DESDE AQUÍ: RESULTADOS ESPECÍFICOS
-
+## 4. UNIDADES
 ### **UNIDAD 1: FUNDAMENTOS DE PROGRAMACIÓN**
-#### Resultado de aprendizaje específico 1 : **Modelar soluciones creativas y detalladas a través del uso de abstracciones a problemas del mundo real.** 
 
 #### Contenidos
 - Introducción. 
