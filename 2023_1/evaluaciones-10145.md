@@ -49,11 +49,13 @@
   * Mutabilidad.
 
 **UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
+
 7. Funciones nativas e importadas:
 8. Funciones propias:
 9. Recursión:
 
 **UNIDAD 3: FUNCIONES Y ABSTRACCIÓN**
+
 10. Archivos:
 11. Módulo Pandas I:
 12. Módulo Pandas II:
@@ -78,26 +80,26 @@
 ### PLANIFICACIÓN SEMANA A SEMANA
 
 #### CALENDARIO DE LECTURAS
-| Semana      | Fecha      | Lecturas                       |
+| Semana      | Fecha      | Lecturas |
 | ------ | ---------- | ------------------------------ |
-| 1      | 13/03/2023 | 01. Introducción a Python                               | 
+| 1      | 13/03/2023 | 01. Introducción a Python | 
 | 2      | 20/03/2023 | 02. I/O y Strings, 03. Control de flujo |
 | 3      | 27/03/2023 | 04. Iteración I: While, 05. Iteración II: For |
-| 4      | 03/04/2023 | 06. Tipos de datos compuestos: Listas  |
+| 4      | 03/04/2023 | 06. Tipos de datos compuestos: Listas|
 | 5      | 10/04/2023 |  |
-| 6      | 17/04/2023 |                                |
+| 6      | 17/04/2023 | |
 | 7      | 24/04/2023 | 07. Funciones nativas e importadas, 08. Funciones propias |
-| 8      | 01/05/2023 | 09. Recursión                        |
-| 9      | 08/05/2023 |                                 |
-| RECESO | 15/05/2023 |                               |
+| 8      | 01/05/2023 | 09. Recursión |
+| 9      | 08/05/2023 |  |
+| RECESO | 15/05/2023 |  |
 | 10     | 22/05/2023 | 10. Tipos de datos compuestos: Archivos   |
 | 11     | 29/05/2023 | 11. Módulo Pandas I, 12. Módulo Pandas II |
-| 12     | 05/06/2023 |                               |
+| 12     | 05/06/2023 |  |
 | 13     | 12/06/2023 | 13. Módulo Pyplot I, 14. Módulo Pyplot II |
-| 14     | 19/06/2023 |                                  |
-| 15     | 26/06/2023 |                                  |
-| 16     | 03/07/2023 |                                  |
-| 17     | 10/07/2023 |                                  |
+| 14     | 19/06/2023 |  |
+| 15     | 26/06/2023 |  |
+| 16     | 03/07/2023 |  |
+| 17     | 10/07/2023 |   |
 
 
 
