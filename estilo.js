@@ -75,7 +75,7 @@ function definirEstilos(){
 			transition: color .3s ease-in-out, box-shadow .3s ease-in-out;\
 		}\
 		#pHyperlink:hover {\
-			box-shadow: inset 100px 0 0 0 var(--color2);\
+			box-shadow: inset 500px 0 0 0 var(--color2);\
 			color: white;\
 		}\
 	");
