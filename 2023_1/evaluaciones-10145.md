@@ -81,6 +81,7 @@
 
 #### CALENDARIO DE LECTURAS
 
+
 | Semana      | Fecha      | Lecturas |
 | ------ | ---------- | ------------------------------ |
 | 1      | 13/03/2023 | 01. Introducción a Python | 
@@ -105,6 +106,7 @@
 
 
 #### CALENDARIO DE GUÍAS Y TAREAS
+
 
 | Semana      | Fecha      | Guía/Tarea                   |
 | ------ | ---------- | ------------------------------ |
