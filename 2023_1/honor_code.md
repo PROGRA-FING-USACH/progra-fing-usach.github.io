@@ -25,6 +25,7 @@ Bajo este Código de Honor, las y los estudiantes que están rindiendo este curs
 
 <p align="justify">
 Constituye un acto de plagio enviar como propio un trabajo que es copiado o derivado del trabajo de otras/os. Por ejemplo, usar una solución de internet, de otra/o estudiante (pasado o presente), o de alguna otra fuente, ya sea total o parcialmente. En esencia, para no caer en una violación a esta regla, la/el estudiante no debería utilizar soluciones de otras personas para generar una solución propia. Esta prohibición incluye el uso y la producción de código por agentes automatizados y de inteligencia artificial.
+</p>
 
 2.	**La/El estudiante no debe compartir sus soluciones con otras/os, ni solicitar a otras/os estudiantes que compartan las suyas.**
 
