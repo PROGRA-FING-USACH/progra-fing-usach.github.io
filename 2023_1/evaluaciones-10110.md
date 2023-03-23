@@ -191,25 +191,8 @@ Todas las entregas con código tienen un requisito de avance mínimo para ser re
 
 ### CONTROLES
 
-Se resuelve en horario de laboratorio, en la última clase de la semana. El horario de controles de cada sección se presenta a continuación
+Se resuelve en horario de laboratorio durante la clase.
 
-|Sección | Horario |
-| ------ | ------|
-|L-1| J2|
-|L-2| W5|
-|L-3| W6|
-|L-4| S3|
-|L-6| J4|
-|L-7| S2|
-|L-8| M3|
-|L-9| M1|
-|L-10| S1|
-|L-12| J2|
-|L-13| J2|
-|L-16| W6|
-|L-18| S3|
-|L-24|J4|
-|L-25|J4|
 
 #### CONTROL 1
 
