@@ -68,13 +68,33 @@
 
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
-|Tarea 1| 10%| 17/04 8:15 AM| 21/04 18:15 PM |
-|Tarea 2| 20%| 08/05 8:15 AM| 12/05 18:15 PM |
-|Tarea 3| 30%| 19/06 8:15 AM| 24/05  12:45 PM|
-|Lecturas| 15%| Al inicio de cada semana| Antes de cada clase |
-|Guías| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
+|Tarea 1 (t1)| 10%| 17/04 8:15 AM| 21/04 18:15 PM |
+|Tarea 2 (t2)| 20%| 08/05 8:15 AM| 12/05 18:15 PM |
+|Tarea 3 (t3)| 30%| 19/06 8:15 AM| 24/05  12:45 PM|
+|Lecturas (l)| 15%| Al inicio de cada semana| Antes de cada clase |
+|Guías (g)| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
 
+Si el estudiante no alcanza el promedio 4.0 y cumple con los requisitos de:
+* 75% de asistencia.
+* No tener sanción por copia.
+Tiene derecho a rendir Examen Acumulativo Optativo (eao) con ponderación de 40%.
 
+El cálculo de la nota se hace siguiendo el siguiente algoritmo:
+
+```python
+if asistencia >= 75%:
+  promedio_final = round(t1 * 0.1 + t2 * 0.2 + t3 * 0.3 + l * 0.15 + g * 0.25, 1)
+else:
+  promedio_final = min(promedio_final, 3.5)
+
+if promedio_final >= 4.0:
+  promedio_final = promedio_final
+elif asistencia >= 75% and promedio_final >= 3.0 and sancion_copia==False:
+  promedio_final = promedio_final * 0.6 + eao * 0.4
+else:
+  promedio_final = promedio_final
+
+```
 
 
 ### PLANIFICACIÓN SEMANA A SEMANA
@@ -128,5 +148,89 @@
 
 
 
+## LABORATORIO
 
+### RESUMEN DE EVALUACIONES
+
+|Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
+| ------ | ------| ------- |------- |
+|Entrega 1 (e1)| 10%| 03/04 8:15 AM| 29/04 12:45 PM |
+|Entrega 2 (e2)| 20%| 02/05 8:15 AM| 03/06 12:45 PM |
+|Entrega 3 (e3)| 30%| 05/06 8:15 AM| 07/07  18:15 PM|
+|Control 1 (c1)| 20%| -| Semana 02/05 |
+|Control 2 (c2)| 20%| -| Semana 26/06 |
+
+El promedio final se calcula como:
+
+```python
+if round(sum([c1, c2])/2, 1) >= 4.0 and asistencia == 100%:
+  promedio_final = round(e1 * 0.1 + e2 * 0.2 + e3 * 0.3 + c1 * 0.2 + c2 * 0.2, 1)
+else:
+  promedio_final = min(promedio_final, 3.5)
+
+```
+
+### ENTREGAS
+
+Todas las entregas con código tienen un requisito de avance mínimo para ser revisadas. Es decir, **entregas que no alcancen el mínimo exigido, tienen nota mínima en toda la entrega**.
+
+#### ENTREGA 1
+* Presentación: semana del 24/04, en horario de laboratorio.
+* Informe: Dábado 29/04 12:45 PM, vía CampusVirtual. 
+
+
+#### ENTREGA 2
+* Informe: 03/06 12:45, vía CampusVirtual. 
+* Avance de código: Sábado 03/06 12:45 PM, vía CampusVirtual.
+
+#### ENTREGA 3
+* Presentación: semana del 03/07, en horario de laboratorio.
+* Informe: Viernes 07/07, 18:15 PM, vía CampusVirtual.
+* Código Final: Viernes 07/07, 18:15 PM, vía CampusVirtual.
+
+
+### CONTROLES
+
+Se resuelve en horario de laboratorio, en la última clase de la semana. El horario de controles de cada sección se presenta a continuación
+
+|Sección | Horario |
+| ------ | ------|
+|L-1| J2|
+|L-2| W5|
+|L-3| W6|
+|L-4| S3|
+|L-6| J4|
+|L-7| S2|
+|L-8| M3|
+|L-9| M1|
+|L-10| S1|
+|L-12| J2|
+|L-13| J2|
+|L-16| W6|
+|L-18| S3|
+|L-24|J4|
+|L-25|J4|
+
+#### CONTROL 1
+
+* Contempla todos los contenidos de la unidad I. 
+* Semana 01/05, en el horario previamente indicado.
+
+#### CONTROL 2
+* Contempla todos los contenidos de las unidades I, II y III
+* Semana 01/05, en el horario previamente indicado.
+
+
+## NOTA FINAL
+
+La calificación final se calcula siguiendo el siguiente algoritmo:
+```python
+if promedio_teoria >= 4.0 and promedio_laboratorio >= 4.0:
+  promedio_final = round((promedio_teoria + promedio_laboratorio)/2)
+else:
+  promedio_final = min(promedio_teoria, promedio_laboratorio)
+
+```
+
+Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (2/2023).
 
