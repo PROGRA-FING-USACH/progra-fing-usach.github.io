@@ -176,7 +176,7 @@ Todas las entregas con código tienen un requisito de avance mínimo para ser re
 
 #### ENTREGA 1
 * Presentación: semana del 24/04, en horario de laboratorio.
-* Informe: Dábado 29/04 12:45 PM, vía CampusVirtual. 
+* Informe: Sábado 29/04 12:45 PM, vía CampusVirtual. 
 
 
 #### ENTREGA 2
