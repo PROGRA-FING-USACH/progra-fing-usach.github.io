@@ -77,6 +77,7 @@
 Si el estudiante no alcanza el promedio 4.0 y cumple con los requisitos de:
 * 75% de asistencia.
 * No tener sanción por copia.
+
 Tiene derecho a rendir Examen Acumulativo Optativo (eao) con ponderación de 40%.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
