@@ -77,3 +77,5 @@ Para la presentación, esta debe realizarse directamente en el horario de clases
 El profesor puede solicitar al momento de la presentación una copia del avance parcial del informe hasta el momento.
 
 Para la entrega del informe, en la pestaña PROYECTO suba su informe en la actividad “ENTREGA 1 – INFORME” en formato .PDF, indicando su sección y número de grupo, por ejemplo, si usted pertenece a la sección 1-B-6, su informe debería subirse con el nombre: “1-B-6-GRUPO-1-INFORME -2”.
+   
+**Basta con que un estudiante por grupo suba el informe para que se considere entregado. Eviten subir duplicados**.
