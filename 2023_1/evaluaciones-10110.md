@@ -68,14 +68,14 @@
 
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
-|Tarea 1 (t1)| 10%| 17/04 8:15 AM| 21/04 18:15 PM |
-|Tarea 2 (t2)| 20%| 08/05 8:15 AM| 12/05 18:15 PM |
-|Tarea 3 (t3)| 30%| 19/06 8:15 AM| 24/05  12:45 PM|
+|Tarea 1 (t1)| 10%| 29/05 8:15 AM| 02/06 18:15 PM |
+|Tarea 2 (t2)| 20%| 12/06 8:15 AM| 16/06 18:15 PM |
+|Tarea 3 (t3)| 30%| 10/07 8:15 AM| 14/07 18:15 PM |
 |Lecturas (l)| 15%| Al inicio de cada semana| Antes de cada clase |
 |Guías (g)| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
 
 Si el estudiante no alcanza el promedio 4.0 y cumple con los requisitos de:
-* 75% de asistencia.
+* <s>75% de asistencia. </s> 
 * No tener sanción por copia.
 
 Tiene derecho a rendir Examen Acumulativo Optativo (eao) con ponderación de 40%.
@@ -83,14 +83,12 @@ Tiene derecho a rendir Examen Acumulativo Optativo (eao) con ponderación de 40%
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-if asistencia >= 75%:
-  promedio_final = round(t1 * 0.1 + t2 * 0.2 + t3 * 0.3 + l * 0.15 + g * 0.25, 1)
-else:
-  promedio_final = min(promedio_final, 3.5)
+
+promedio_final = round(t1 * 0.1 + t2 * 0.2 + t3 * 0.3 + l * 0.15 + g * 0.25, 1)
 
 if promedio_final >= 4.0:
   promedio_final = promedio_final
-elif asistencia >= 75% and promedio_final >= 3.0 and sancion_copia==False:
+elif promedio_final >= 3.0 and sancion_copia==False:
   promedio_final = promedio_final * 0.6 + eao * 0.4
 else:
   promedio_final = promedio_final
@@ -108,21 +106,22 @@ else:
 | 2      | 20/03/2023 | 02. I/O y Strings, 03. Control de flujo |
 | 3      | 27/03/2023 | 04. Iteración I: While, 05. Iteración II: For |
 | 4      | 03/04/2023 | 06. Tipos de datos compuestos: Listas|
-| 5      | 10/04/2023 |  |
-| 6      | 17/04/2023 | |
-| 7      | 24/04/2023 | 07. Funciones nativas e importadas, 08. Funciones propias |
-| 8      | 01/05/2023 | 09. Recursión |
-| 9      | 08/05/2023 |  |
+| PARO      | 10/04/2023 |  |
+| PARO      | 17/04/2023 |  |
+| PARO      | 24/04/2023 |  |
+| PARO      | 01/05/2023 |  |
+| 5      | 08/05/2023 |  |
 | RECESO | 15/05/2023 |  |
-| 10     | 22/05/2023 | 10. Tipos de datos compuestos: Archivos   |
-| 11     | 29/05/2023 | 11. Módulo Pandas I, 12. Módulo Pandas II |
-| 12     | 05/06/2023 |  |
-| 13     | 12/06/2023 | 13. Módulo Pyplot I, 14. Módulo Pyplot II |
-| 14     | 19/06/2023 |  |
-| 15     | 26/06/2023 |  |
-| 16     | 03/07/2023 |  |
-| 17     | 10/07/2023 |   |
-
+| 6     | 22/05/2023 | 07. Funciones nativas e importadas, 08. Funciones propias |
+| 7     | 29/05/2023 | |
+| 8     | 05/06/2023 | 09. Recursión,  10. Tipos de datos compuestos: Archivos  |
+| 9     | 12/06/2023 | |
+| 10     | 19/06/2023 | 11. Módulo Pandas I, 12. Módulo Pandas II  |
+| 11     | 26/06/2023 |  13. Módulo Pyplot I, 14. Módulo Pyplot II  |
+| 12     | 03/07/2023 | |
+| 13     | 10/07/2023 |   |
+| 14     | 17/07/2023 |   |
+| 15     | 24/07/2023 |   |
 
 #### CALENDARIO DE GUÍAS Y TAREAS
 
@@ -132,21 +131,22 @@ else:
 | 2      | 20/03/2023 | Introducción a Python, I/O y Strings |
 | 3      | 27/03/2023 | Control de flujo |
 | 4      | 03/04/2023 | Iteración  |
-| 5      | 10/04/2023 |  Listas |
-| 6      | 17/04/2023 |  Tarea 1: Toda la Unidad 1|
-| 7      | 24/04/2023 | Funciones |
-| 8      | 01/05/2023 | Recursión                        |
-| 9      | 08/05/2023 | Tarea 2: Toda la materia Unidades 1 y 2|
-| RECESO | 15/05/2023 |  |
-| 10     | 22/05/2023 | Archivos   |
-| 11     | 29/05/2023 | Pandas I |
-| 12     | 05/06/2023 | Pandas II  |
-| 13     | 12/06/2023 | Pyplot |
-| 14     | 19/06/2023 |  Tarea 3: Toda la materia Unidades 1, 2 y 3 |
-| 15     | 26/06/2023 |  |
-| 16     | 03/07/2023 | Repaso |
-| 17     | 10/07/2023 |  |
-
+| PARO      | 10/04/2023 |  |
+| PARO      | 17/04/2023 |  |
+| PARO      | 24/04/2023 |  |
+| PARO      | 01/05/2023 |  |
+| 5      | 08/05/2023 | Listas  |
+| RECESO | 15/05/2023 |   |
+| 6     | 22/05/2023 | Funciones |
+| 7     | 29/05/2023 |Tarea 1: Toda la Unidad 1 |
+| 8     | 05/06/2023 | Recursión  |
+| 9     | 12/06/2023 | Tarea 2: Toda la materia Unidades 1 y 2 |
+| 10     | 19/06/2023 | Archivos   |
+| 11     | 26/06/2023 |  Pandas I |
+| 12     | 03/07/2023 | Pyplot |
+| 13     | 10/07/2023 |  Tarea 3: Toda la materia Unidades 1, 2 y 3  |
+| 14     | 17/07/2023 | Repaso  |
+| 15     | 24/07/2023 |   |
 
 
 ## LABORATORIO
