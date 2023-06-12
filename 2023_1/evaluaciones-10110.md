@@ -114,8 +114,8 @@ else:
 | RECESO | 15/05/2023 |  |
 | 6     | 22/05/2023 | 07. Funciones nativas e importadas, 08. Funciones propias |
 | 7     | 29/05/2023 | |
-| 8     | 05/06/2023 | 09. Recursión,  10. Tipos de datos compuestos: Archivos  |
-| 9     | 12/06/2023 | |
+| 8     | 05/06/2023 | 09. Recursión |
+| 9     | 12/06/2023 |  10. Tipos de datos compuestos: Archivos |
 | 10     | 19/06/2023 | 11. Módulo Pandas I, 12. Módulo Pandas II  |
 | 11     | 26/06/2023 |  13. Módulo Pyplot I, 14. Módulo Pyplot II  |
 | 12     | 03/07/2023 | |
@@ -137,16 +137,20 @@ else:
 | PARO      | 01/05/2023 |  |
 | 5      | 08/05/2023 | Listas  |
 | RECESO | 15/05/2023 |   |
-| 6     | 22/05/2023 | Funciones |
+| 6     | 22/05/2023 |  |
 | 7     | 29/05/2023 |Tarea 1: Toda la Unidad 1 |
-| 8     | 05/06/2023 | Recursión  |
-| 9     | 12/06/2023 | Tarea 2: Toda la materia Unidades 1 y 2 |
-| 10     | 19/06/2023 | Archivos   |
-| 11     | 26/06/2023 |  Pandas I |
-| 12     | 03/07/2023 | Pyplot |
+| 8     | 05/06/2023 | Funciones  |
+| 9     | 12/06/2023 | Recursión |
+| 10     | 19/06/2023 | Tarea 2: Toda la materia Unidades 1 y 2  |
+| 11     | 26/06/2023 |  Archivos |
+| 12     | 03/07/2023 | Pandas |
 | 13     | 10/07/2023 |  Tarea 3: Toda la materia Unidades 1, 2 y 3  |
 | 14     | 17/07/2023 | Repaso  |
 | 15     | 24/07/2023 |   |
+
+
+
+
 
 
 ## LABORATORIO
@@ -155,11 +159,11 @@ else:
 
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
-|Entrega 1 (e1)| 10%| 03/04 8:15 AM| 29/04 12:45 PM |
-|Entrega 2 (e2)| 20%| 02/05 8:15 AM| 03/06 12:45 PM |
-|Entrega 3 (e3)| 30%| 05/06 8:15 AM| 07/07  18:15 PM|
-|Control 1 (c1)| 20%| -| Semana 02/05 |
-|Control 2 (c2)| 20%| -| Semana 26/06 |
+|Entrega 1 (e1)| 10%| 03/04 8:15 AM| 29/05 12:45 PM |
+|Entrega 2 (e2)| 20%| 11/06 8:15 AM| 24/06 12:45 PM |
+|Entrega 3 (e3)| 30%| 25/06 8:15 AM| 17/07 (Presentación) - 22/07  12:45 PM (Informe y código) |
+|Control 1 (c1)| 20%| -| Semana 12/06 |
+|Control 2 (c2)| 20%| -| Semana 03/07 |
 
 El promedio final se calcula como:
 
@@ -176,18 +180,18 @@ else:
 Todas las entregas con código tienen un requisito de avance mínimo para ser revisadas. Es decir, **entregas que no alcancen el mínimo exigido, tienen nota mínima en toda la entrega**.
 
 #### ENTREGA 1
-* Presentación: semana del 24/04, en horario de laboratorio.
-* Informe: Sábado 29/04 12:45 PM, vía CampusVirtual. 
+* Presentación: semana del 29/05, en horario de laboratorio.
+* Informe: Sábado 29/05 12:45 PM, vía CampusVirtual. 
 
 
 #### ENTREGA 2
-* Informe: 03/06 12:45, vía CampusVirtual. 
-* Avance de código: Sábado 03/06 12:45 PM, vía CampusVirtual.
+* Informe: 24/06 12:45, vía CampusVirtual. 
+* Avance de código: Sábado 24/06 12:45 PM, vía CampusVirtual.
 
 #### ENTREGA 3
-* Presentación: semana del 03/07, en horario de laboratorio.
-* Informe: Viernes 07/07, 18:15 PM, vía CampusVirtual.
-* Código Final: Viernes 07/07, 18:15 PM, vía CampusVirtual.
+* Presentación: semana del 17/07, en horario de laboratorio.
+* Informe: Sábado 22/07, 12:45 PM, vía CampusVirtual.
+* Código Final: Sábado 22/07, 12:45 PM, vía CampusVirtual.
 
 
 ### CONTROLES
@@ -198,11 +202,11 @@ Se resuelve en horario de laboratorio durante la clase.
 #### CONTROL 1
 
 * Contempla todos los contenidos de la unidad I. 
-* Semana 01/05, en el horario previamente indicado.
+* Semana 12/06, en el horario previamente indicado.
 
 #### CONTROL 2
-* Contempla todos los contenidos de las unidades I, II y III
-* Semana 01/05, en el horario previamente indicado.
+* Contempla todos los contenidos de las unidades I, II y III hasta archivos.
+* Semana 03/07, en el horario previamente indicado.
 
 
 ## NOTA FINAL
