@@ -178,19 +178,21 @@ else:
 Todas las entregas con código tienen un requisito de avance mínimo para ser revisadas. Es decir, **entregas que no alcancen el mínimo exigido, tienen nota mínima en toda la entrega**.
 
 #### ENTREGA 1
-* Presentación: semana del 24/04, en horario de laboratorio.
-* Informe: Dábado 29/04 12:45 PM, vía CampusVirtual. 
+* Presentación: semana del 29/05, en horario de laboratorio.
+* Informe: Sábado 29/05 12:45 PM, vía CampusVirtual. 
 
 
 #### ENTREGA 2
-* Informe: 03/06 12:45, vía CampusVirtual. 
-* Avance de código: Sábado 03/06 12:45 PM, vía CampusVirtual.
+* Informe: 24/06 12:45, vía CampusVirtual. 
+* Avance de código: Sábado 24/06 12:45 PM, vía CampusVirtual.
 
 #### ENTREGA 3
-* Presentación: semana del 03/07, en horario de laboratorio.
-* Informe: Viernes 07/07, 18:15 PM, vía CampusVirtual.
-* Código Final: Viernes 07/07, 18:15 PM, vía CampusVirtual.
+* Presentación: semana del 17/07, en horario de laboratorio.
+* Informe: Sábado 22/07, 12:45 PM, vía CampusVirtual.
+* Código Final: Sábado 22/07, 12:45 PM, vía CampusVirtual.
 
+
+### CONTROLES
 
 ### CONTROLES
 
