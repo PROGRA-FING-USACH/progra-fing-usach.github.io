@@ -69,8 +69,8 @@
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
 |Tarea 1 (t1)| 10%| 29/05 8:15 AM| 02/06 18:15 PM |
-|Tarea 2 (t2)| 20%| 12/06 8:15 AM| 16/06 18:15 PM |
-|Tarea 3 (t3)| 30%| 10/07 8:15 AM| 14/07 18:15 PM |
+|Tarea 2 (t2)| 20%| 03/07 8:15 AM| 08/07 18:15 PM |
+|Tarea 3 (t3)| 30%| 24/07 8:15 AM| 28/07 18:15 PM |
 |Lecturas (l)| 15%| Al inicio de cada semana| Antes de cada clase |
 |Guías (g)| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
 
@@ -141,12 +141,12 @@ else:
 | 7     | 29/05/2023 |Tarea 1: Toda la Unidad 1 |
 | 8     | 05/06/2023 | Funciones  |
 | 9     | 12/06/2023 | Recursión |
-| 10     | 19/06/2023 | Tarea 2: Toda la materia Unidades 1 y 2  |
-| 11     | 26/06/2023 |  Archivos |
-| 12     | 03/07/2023 | Pandas |
-| 13     | 10/07/2023 |  Tarea 3: Toda la materia Unidades 1, 2 y 3  |
-| 14     | 17/07/2023 | Repaso  |
-| 15     | 24/07/2023 |   |
+| 10     | 19/06/2023 |  |
+| 11     | 26/06/2023 |  |
+| 12     | 03/07/2023 |   Archivos |
+| 13     | 10/07/2023 |  Tarea 2: Toda la materia Unidades 1 y 2   |
+| 14     | 17/07/2023 |  Pandas |
+| 15     | 24/07/2023 | Tarea 3: Toda la materia Unidades 1, 2 y 3  |
 
 
 
@@ -159,9 +159,9 @@ else:
 | ------ | ------| ------- |------- |
 |Entrega 1 (e1)| 10%| 03/04 8:15 AM| 29/05 12:45 PM |
 |Entrega 2 (e2)| 20%| 11/06 8:15 AM| 24/06 12:45 PM |
-|Entrega 3 (e3)| 30%| 25/06 8:15 AM| 17/07 (Presentación) - 22/07  12:45 PM (Informe y código) |
+|Entrega 3 (e3)| 30%| 14/07 6:15 PM| 31/07 (Presentación) - 31/07  08:15 AM (Informe y código) |
 |Control 1 (c1)| 20%| -| Semana 12/06 |
-|Control 2 (c2)| 20%| -| Semana 03/07 |
+|Control 2 (c2)| 20%| -| Semana 24/07 |
 
 El promedio final se calcula como:
 
