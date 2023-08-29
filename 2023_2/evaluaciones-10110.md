@@ -164,6 +164,7 @@ else:
 |Control 2++ (c2)| 20%| -| Semana 27/11 |
 
 * Presentación en horario de clases.
+
 ++ En el horario de clases correspondiente.
 
 El promedio final se calcula como:
