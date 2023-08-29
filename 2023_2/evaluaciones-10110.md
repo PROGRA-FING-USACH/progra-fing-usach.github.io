@@ -156,15 +156,15 @@ else:
 ### RESUMEN DE EVALUACIONES
 
 |Calificación| Ponderación | Fecha de entrega |
-| ------ | ------| ------- |------- |
+| ------ |------- |------- |
 |Entrega 1* (e1)| 10%| 07/10 12:45 PM |
 |Entrega 2 (e2)| 20%| 18/11 12:45 PM |
 |Entrega 3* (e3)| 30%| 09/12 12:45 PM|
-|Control 1+ (c1)| 20%| -| Semana 16/10 |
-|Control 2+ (c2)| 20%| -| Semana 27/11 |
+|Control 1++ (c1)| 20%| -| Semana 16/10 |
+|Control 2++ (c2)| 20%| -| Semana 27/11 |
 
 * Presentación en horario de clases.
-+ En el horario de clases correspondiente.
+++ En el horario de clases correspondiente.
 
 El promedio final se calcula como:
 
