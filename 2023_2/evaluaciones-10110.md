@@ -95,7 +95,7 @@
 |Tarea 1 (t1)| 10%| 10/10 8:15 AM| 14/10 12:45 PM |
 |Tarea 2 (t2)| 20%| 06/11 8:15 AM| 10/11 18:15 PM |
 |Tarea 3 (t3)| 30%| 27/11 8:15 AM| 01/12 18:15 PM |
-|Actividades en clases (a)| 15%| Al inicio de cada semana| Todas las clases |
+|Actividades en clases (a)| 15%| En horario de clases | Todas las clases |
 |Guías (g)| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
 
 Si el estudiante no alcanza el promedio 4.0 y cumple con los requisitos de:
