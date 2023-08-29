@@ -32,7 +32,7 @@
     * Control de flujo alternativo usando if-else.
     * Control de flujo alternativo usando if-elif-else.
     * Anidamiento.
-4. Iteración I:
+4. Iteración:
     * Concepto de iteración y tautología.
     * Iteración usando while.
     * Uso de variables para iterar y para acumular.
