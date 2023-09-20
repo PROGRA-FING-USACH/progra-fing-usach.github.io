@@ -14,15 +14,17 @@
     * Operadores aritméticos (+, -, *, /, //, %, **).
     * Precedencia.
     * Expresiones.
+    * Funciones de cambio de tipo.
     * Operador asignación (=). 
     * Variables.
     * Reglas de nombres para variables.
-2. I/O y Strings:
-    * Función input().
-    * Función print().
+2. Strings e I/O:
+    * Concepto de objeto, atributo y método.
     * Tipo de dato string.
     * Métodos de los strings.
     * Indexación básica.
+    * Función input().
+    * Función print().
 3. Control de flujo:
     * Operadores de comparación (<, <=, >, >=, !=, ==).
     * Operadores booleanos (not, and, or).
@@ -30,48 +32,70 @@
     * Control de flujo alternativo usando if-else.
     * Control de flujo alternativo usando if-elif-else.
     * Anidamiento.
-4. Iteración I:
+4. Iteración:
     * Concepto de iteración y tautología.
     * Iteración usando while.
     * Uso de variables para iterar y para acumular.
     * Trazas de código.
-5. Iteración II:
-  * Iteración sobre objetos.
-  * Iteración usando for-in.
-  * Función range().
-  * Diferencias entre for-in y while.
-6.  Tipos de datos compuestos: Listas
-  * Concepto de objeto.
-  * Tipo de dato lista.
-  * Métodos de las listas (selección, agregación, actualización y eliminación).
-  * Recorridos de listas.
-  * Listas de listas.
-  * Mutabilidad.
+    * Iteración sobre objetos.
+    * Iteración usando for-in.
+    * Función range().
+    * Diferencias entre for-in y while.
+5.  Tipos de datos compuestos: Listas
+    * Concepto de objeto.
+    * Tipo de dato lista.
+    * Métodos de las listas (selección, agregación, actualización y eliminación).
+    * Recorridos de listas.
+    * Listas de listas.
+    * Mutabilidad.
+    * Paso por referencia.
+    * Listas de listas.
+    * Conversión de string a listas (split, strip, join)
 
 **UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
 
-7. Funciones nativas e importadas:
-8. Funciones propias:
-9. Recursión:
+6. Funciones nativas e importadas:
+    * Concepto de función.
+    * Funciones nativas.
+    * Funciones importadas.
+    * Uso de pip e instalación de módulos.
+    * Consulta de documentación.
+7. Funciones propias:
+    * Sintaxis de funciones propias.
+    * Uso de return.
+    * Tiempo de definición vs tiempo de ejecución.
+    * Scope.
+    * Keyword arguments.
+    * Parámetros por defecto
+8. Recursión:
+    * Concepto de recursión.
+    * Definición de funciones recursivas (Ecuaciones de recurrencia, caso base).
+    * Limitaciones y ventajas de la recursión.
+    * Recursión sobre objetos.
 
 **UNIDAD 3: FUNCIONES Y ABSTRACCIÓN**
 
-10. Archivos:
-11. Módulo Pandas I:
-12. Módulo Pandas II:
-13. Módulo Pyploy I:
-14. Módulo Pyplot II:
+9. Archivos:
+    * Tipo de dato archivo.
+    * Métodos y atributos de los archivos.
+    * Leer y escribir en archivos de texto plano y csv
+    * Acceder a archivos por ruta absoluta y relativa.
+    * Encoding y mapas de caracteres.
 
+10. Programación Científica: 
+    * Numpy: El tipo de dato Array
+    * Pyplot: Construcción de gráficos
+    * Pandas: Qué es y para que se usa
 
 
 ### RESUMEN DE EVALUACIONES
 
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
-|Tarea 1 (t1)| 10%| 29/05 8:15 AM| 02/06 18:15 PM |
-|Tarea 2 (t2)| 20%| 03/07 8:15 AM| 08/07 18:15 PM |
-|Tarea 3 (t3)| 30%| 24/07 8:15 AM| 28/07 18:15 PM |
-|Lecturas (l)| 15%| Al inicio de cada semana| Antes de cada clase |
+|Tarea 1 (t1)| 10%| 10/10 8:15 AM| 14/10 12:45 PM |
+|Tarea 2 (t2)| 20%| 06/11 8:15 AM| 10/11 18:15 PM |
+|Tarea 3 (t3)| 30%| 27/11 8:15 AM| 01/12 18:15 PM |
+|Actividades en clases (a)| 15%| En horario de clases | Todas las clases |
 |Guías (g)| 25%| Al inicio de cada semana| Miércoles de la semana siguiente 18:15 PM |
 
 Si el estudiante no alcanza el promedio 4.0 y cumple con los requisitos de:
@@ -84,7 +108,7 @@ El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
 
-promedio_final = round(t1 * 0.1 + t2 * 0.2 + t3 * 0.3 + l * 0.15 + g * 0.25, 1)
+promedio_final = round(t1 * 0.1 + t2 * 0.2 + t3 * 0.3 + a * 0.15 + g * 0.25, 1)
 
 if promedio_final >= 4.0:
   promedio_final = promedio_final
@@ -98,55 +122,31 @@ else:
 
 ### PLANIFICACIÓN SEMANA A SEMANA
 
-#### CALENDARIO DE LECTURAS
-
-| Semana      | Fecha      | Lecturas |
-| ------ | ---------- | ------------------------------ |
-| 1      | 13/03/2023 | 01. Introducción a Python | 
-| 2      | 20/03/2023 | 02. I/O y Strings, 03. Control de flujo |
-| 3      | 27/03/2023 | 04. Iteración I: While, 05. Iteración II: For |
-| 4      | 03/04/2023 | 06. Tipos de datos compuestos: Listas|
-| PARO      | 10/04/2023 |  |
-| PARO      | 17/04/2023 |  |
-| PARO      | 24/04/2023 |  |
-| PARO      | 01/05/2023 |  |
-| 5      | 08/05/2023 |  |
-| RECESO | 15/05/2023 |  |
-| 6     | 22/05/2023 | 07. Funciones nativas e importadas, 08. Funciones propias |
-| 7     | 29/05/2023 | |
-| 8     | 05/06/2023 | 09. Recursión |
-| 9     | 12/06/2023 |  10. Tipos de datos compuestos: Archivos |
-| 10     | 19/06/2023 | 11. Módulo Pandas I, 12. Módulo Pandas II  |
-| 11     | 26/06/2023 |  13. Módulo Pyplot I, 14. Módulo Pyplot II  |
-| 12     | 03/07/2023 | |
-| 13     | 10/07/2023 |   |
-| 14     | 17/07/2023 |   |
-| 15     | 24/07/2023 |   |
 
 #### CALENDARIO DE GUÍAS Y TAREAS
 
-| Semana      | Fecha      | Guía/Tarea                   |
-| ------ | ---------- | ------------------------------ |
-| 1      | 13/03/2023 | | 
-| 2      | 20/03/2023 | Introducción a Python, I/O y Strings |
-| 3      | 27/03/2023 | Control de flujo |
-| 4      | 03/04/2023 | Iteración  |
-| PARO      | 10/04/2023 |  |
-| PARO      | 17/04/2023 |  |
-| PARO      | 24/04/2023 |  |
-| PARO      | 01/05/2023 |  |
-| 5      | 08/05/2023 | Listas  |
-| RECESO | 15/05/2023 |   |
-| 6     | 22/05/2023 |  |
-| 7     | 29/05/2023 |Tarea 1: Toda la Unidad 1 |
-| 8     | 05/06/2023 | Funciones  |
-| 9     | 12/06/2023 | Recursión |
-| 10     | 19/06/2023 |  |
-| 11     | 26/06/2023 |  |
-| 12     | 03/07/2023 |   Archivos |
-| 13     | 10/07/2023 |  Tarea 2: Toda la materia Unidades 1 y 2   |
-| 14     | 17/07/2023 |  Pandas |
-| 15     | 24/07/2023 | Tarea 3: Toda la materia Unidades 1, 2 y 3  |
+| Semana | Fecha      | Temario semanal*                   | Guías/Tareas                                  |
+|--------|------------|------------------------------------|-----------------------------------------------|
+| 1      | 28-08-2023 | 01. Elementos básicos de Python    |                                               |
+| 2      | 04-09-2023 | 02. Strings e I/O                  | 00. Conociendo Replit                         |
+| RECESO | 11-09-2023 |                                    |                                               |
+| 3      | 18-09-2023 | 03. Control de Flujo               | 01. I/O                                       |
+| 4      | 25-09-2023 | 04. Iteraciones                    | 02. If                                        |
+| 5      | 02-10-2023 | 05. Listas                         | 03. Iteración                                 |
+| 6      | 09-10-2023 |                                    | Tarea 1                                       |
+| 7      | 16-10-2023 | 06. Funciones nativas e importadas | 04. Listas                                    |
+| 8      | 23-10-2023 | 07. Funciones propias              | 05. Listas de listas, listas de strings, etc. |
+| RECESO | 30-10-2023 |                                    |                                               |
+| 9      | 06-11-2023 | 08. Recursión                      | Tarea 2                                       |
+| 10     | 13-11-2023 | 09. Archivos                       | 06. Funciones propias                         |
+| 11     | 20-11-2023 |                                    | 07. Recursión                                 |
+| 12     | 27-11-2023 | 10. Programación Científica        | Tarea 3                                       |
+| 13     | 04-12-2023 |                                    | 08. Archivos                                  |
+| 14     | 11-12-2023 |                                    |                                               |
+| 15     | 18-12-2023 |                                    |                                               |
+
+* Puede variar dependiendo de feriados, suspensiones y otros.
+
 
 
 
@@ -155,13 +155,17 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
-| ------ | ------| ------- |------- |
-|Entrega 1 (e1)| 10%| 03/04 8:15 AM| 29/05 12:45 PM |
-|Entrega 2 (e2)| 20%| 11/06 8:15 AM| 24/06 12:45 PM |
-|Entrega 3 (e3)| 30%| 14/07 6:15 PM| 31/07 (Presentación) - 31/07  08:15 AM (Informe y código) |
-|Control 1 (c1)| 20%| -| Semana 12/06 |
-|Control 2 (c2)| 20%| -| Semana 24/07 |
+|Calificación| Ponderación | Fecha de entrega |
+| ------ |------- |------- |
+|Entrega 1* (e1)| 10%| 07/10 12:45 PM |
+|Entrega 2 (e2)| 20%| 18/11 12:45 PM |
+|Entrega 3* (e3)| 30%| 09/12 12:45 PM|
+|Control 1++ (c1)| 20%| -| Semana 16/10 |
+|Control 2++ (c2)| 20%| -| Semana 27/11 |
+
+* Presentación en horario de clases.
+
+++ En el horario de clases correspondiente.
 
 El promedio final se calcula como:
 
@@ -178,52 +182,29 @@ else:
 Todas las entregas con código tienen un requisito de avance mínimo para ser revisadas. Es decir, **entregas que no alcancen el mínimo exigido, tienen nota mínima en toda la entrega**.
 
 #### ENTREGA 1
-* Presentación: semana del 29/05, en horario de laboratorio.
-* Informe: Sábado 29/05 12:45 PM, vía CampusVirtual. 
+* Presentación e informe
 
 
 #### ENTREGA 2
-* Informe: 24/06 12:45, vía CampusVirtual. 
-* Avance de código: Sábado 24/06 12:45 PM, vía CampusVirtual.
+* Informe y avance de código
 
 #### ENTREGA 3
-* Presentación: semana del 17/07, en horario de laboratorio.
-* Informe: Sábado 22/07, 12:45 PM, vía CampusVirtual.
-* Código Final: Sábado 22/07, 12:45 PM, vía CampusVirtual.
+* Presentación, informe y solución final.
 
 
 ### CONTROLES
 
-### CONTROLES
+Se resuelve en horario de laboratorio durante la clase.
 
-Se resuelve en horario de laboratorio, en la última clase de la semana. El horario de controles de cada sección se presenta a continuación
-
-|Sección | Horario |
-| ------ | ------|
-|L-1| J2|
-|L-2| W5|
-|L-3| W6|
-|L-4| S3|
-|L-6| W4|
-|L-7| S2|
-|L-8| M3|
-|L-9| M1|
-|L-10| S1|
-|L-12| J2|
-|L-13| J2|
-|L-16| W6|
-|L-18| S3|
-|L-24|W4|
-|L-25|W4|
 
 #### CONTROL 1
 
 * Contempla todos los contenidos de la unidad I. 
-* Semana 12/06, en el horario previamente indicado.
+
 
 #### CONTROL 2
 * Contempla todos los contenidos de las unidades I, II y III hasta archivos.
-* Semana 03/07, en el horario previamente indicado.
+
 
 
 ## NOTA FINAL
@@ -237,5 +218,6 @@ else:
 
 ```
 
-Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (2/2023).
+Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (1/2024) de acuerdo al artículo 6.4 del reglamento complementario de la Facultad de Ingeniería.
+
 
