@@ -218,5 +218,6 @@ else:
 
 ```
 
-Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (1/2024).
+
+Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (1/2024) de acuerdo al artículo 6.4 del reglamento complementario de la Facultad de Ingeniería.
 
