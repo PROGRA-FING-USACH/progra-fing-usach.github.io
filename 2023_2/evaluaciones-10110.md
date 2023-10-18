@@ -168,6 +168,7 @@ else:
 ++ En el horario de clases correspondiente.
 
 #### FECHAS CONTROL 1
+
 | CURSO | PROFESOR        | LAB | HORARIO | FECHA CONTROL 1 |
 |-------|-----------------|-----|---------|-----------------|
 | 10110 | Felipe Reyes    | L1  | M1      | 24 de octubre   |
