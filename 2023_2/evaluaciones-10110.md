@@ -167,6 +167,18 @@ else:
 
 ++ En el horario de clases correspondiente.
 
+#### FECHAS CONTROL 1
+| CURSO | PROFESOR        | LAB | HORARIO | FECHA CONTROL 1 |
+|-------|-----------------|-----|---------|-----------------|
+| 10110 | Felipe Reyes    | L1  | M1      | 24 de octubre   |
+| 10110 | Gary Simken     | L2  | M1      | 24 de octubre   |
+| 10110 | Bastián Loyola  | L3  | L1      | 23 de octubre   |
+| 10110 | Felipe Fuentes  | L5  | M6      | 24 de octubre   |
+| 10110 | Sergio Peñaloza | L6  | M6      | 24 de octubre   |
+| 10110 | Camilo Berríos  | L7  | V6      | 10 de noviembre |
+| 10110 | Felipe Reyes    | L8  | V6      | 10 de noviembre |
+
+
 El promedio final se calcula como:
 
 ```python
