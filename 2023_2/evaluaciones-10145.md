@@ -133,8 +133,8 @@ else:
 | 3      | 18-09-2023 | 03. Control de Flujo               | 01. I/O                                       |
 | 4      | 25-09-2023 | 04. Iteraciones                    | 02. If                                        |
 | 5      | 02-10-2023 | 05. Listas                         | 03. Iteración                                 |
-| 6      | 09-10-2023 |                                    | Tarea 1                                       |
-| 7      | 16-10-2023 | 06. Funciones nativas e importadas | 04. Listas                                    |
+| 6      | 09-10-2023 |                                    | 04. Listas                                    |
+| 7      | 16-10-2023 | 06. Funciones nativas e importadas | Tarea 1                                       |
 | 8      | 23-10-2023 | 07. Funciones propias              | 05. Listas de listas, listas de strings, etc. |
 | RECESO | 30-10-2023 |                                    |                                               |
 | 9      | 06-11-2023 | 08. Recursión                      | Tarea 2                                       |
@@ -160,12 +160,53 @@ else:
 |Entrega 1* (e1)| 10%| 07/10 12:45 PM |
 |Entrega 2 (e2)| 20%| 18/11 12:45 PM |
 |Entrega 3* (e3)| 30%| 09/12 12:45 PM|
-|Control 1++ (c1)| 20%| -| Semana 16/10 |
+|Control 1++ (c1)| 20%| -| Semana 23/10 |
 |Control 2++ (c2)| 20%| -| Semana 27/11 |
 
 * Presentación en horario de clases.
 
 ++ En el horario de clases correspondiente.
+
+#### FECHAS CONTROL 1
+
+| CURSO | PROFESOR          | LAB | HORARIO | FECHA CONTROL 1 |
+| ----- | ----------------- | --- | ------- | --------------- |
+| 10145 | Carlos Soto       | L1  | M1W1    | 24 de octubre   |
+| 10145 | Pablo Lorca       | L2  | M1W1    | 24 de octubre   |
+| 10145 | Mauricio Hidalgo  | L3  | L4J2    | 23 de octubre   |
+| 10145 | Luis Corral       | L4  | L4J2    | 23 de octubre   |
+| 10145 | Pablo Lorca       | L5  | L4J2    | 23 de octubre   |
+| 10145 | Gabriela Yupanqui | L6  | L1M1    | 23 de octubre   |
+| 10145 | Javier Salazar    | L7  | L1M1    | 23 de octubre   |
+| 10145 | César Rivera      | L8  | L3M3    | 23 de octubre   |
+| 10145 | Pablo Lorca       | L9  | L3M3    | 23 de octubre   |
+| 10145 | Leonel Gajardo    | L10 | J1S1    | 11 de noviembre |
+| 10145 | Juan González     | L11 | V3S1    | 11 de noviembre |
+| 10145 | Miguel Salinas    | L12 | V3S1    | 11 de noviembre |
+| 10145 | Ricardo Corbinaud | L13 | V3S1    | 11 de noviembre |
+| 10145 | Jacqueline Köhler | L14 | M2W2    | 24 de octubre   |
+| 10145 | Aileen Esparza    | L15 | M2W2    | 24 de octubre   |
+| 10145 | Carlos Soto       | L16 | M2W2    | 24 de octubre   |
+| 10145 | Pablo Lorca       | L17 | M2W2    | 24 de octubre   |
+| 10145 | Jacqueline Köhler | L18 | L5W5    | 23 de octubre   |
+| 10145 | Patricia Mellado  | L19 | L5W5    | 23 de octubre   |
+| 10145 | Ricardo Corbinaud | L20 | L6W6    | 23 de octubre   |
+| 10145 | Alfredo González  | L21 | L6W6    | 23 de octubre   |
+| 10145 | César Rivera      | L22 | L6S3    | 23 de octubre   |
+| 10145 | Bastián Loyola    | L23 | L6S3    | 23 de octubre   |
+| 10145 | Carlos Soto       | L24 | M4V6    | 24 de octubre   |
+| 10145 | Javier Salazar    | L25 | M4V6    | 24 de octubre   |
+| 10145 | José Guerra       | L26 | M4V6    | 24 de octubre   |
+| 10145 | Mauricio Hidalgo  | L27 | W4J4    | 25 de octubre   |
+| 10145 | Juan González     | L28 | W4J4    | 25 de octubre   |
+| 10145 | Carlos Soto       | L29 | W4J4    | 25 de octubre   |
+| 10145 | Miguel Truffa     | L30 | W4J4    | 25 de octubre   |
+| 10145 | Luis Corral       | L31 | L6M6    | 23 de octubre   |
+| 10145 | Camilo Berríos    | L32 | L6M6    | 23 de octubre   |
+| 10145 | Patricia Mellado  | L33 | L6M6    | 23 de octubre   |
+| 10145 | Alfredo González  | L34 | S2S3    | 11 de noviembre |
+| 10145 | Andrés Muñoz      | L35 | S2S3    | 11 de noviembre |
+| 10145 | Patricia Mellado  | L36 | S2S3    | 11 de noviembre |
 
 El promedio final se calcula como:
 
