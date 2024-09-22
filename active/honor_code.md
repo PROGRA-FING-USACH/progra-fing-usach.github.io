@@ -96,13 +96,13 @@ En las plataformas que el curso usa, las acciones que la/el estudiante realiza q
 -	**Todas las entregas están sujetas a proceso de detección automatizada de plagio.**
 
 <p align="justify">
-El equipo docente emplea herramientas automatizadas de detección de plagio que compara las entregas de estudiantes con otras soluciones, con soluciones de internet y contra entregas previas del curso. Estas herramientas son efectivas al detectar similitudes inusuales de programas, las cuáles luego son examinadas por un comité de profesoras/es para determinar si existen posibles infracciones al Código de Honor.
+El equipo docente emplea herramientas automatizadas de detección de plagio que compara las entregas de estudiantes con otras soluciones, con soluciones de internet, con soluciones generadas por herramientas de IA y contra entregas previas del curso. Estas herramientas son efectivas al detectar similitudes inusuales de programas, las cuáles luego son examinadas por un comité de profesoras/es para determinar si existen posibles infracciones al Código de Honor.
 </p>
 
 -	**Cláusula de arrepentimiento.**
 
 <p align="justify">
-Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, antes de que el equipo docente haya levantado una sospecha, se considerará como un atenuante a la hora de definir las sanciones. 
+Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, **antes de que el equipo docente haya levantado una sospecha**, se considerará como un atenuante a la hora de definir las sanciones. 
 La cláusula de arrepentimiento solo es válida durante los 3 días hábiles siguientes luego de una entrega.
 </p>
 
