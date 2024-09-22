@@ -102,7 +102,7 @@ El equipo docente emplea herramientas automatizadas de detección de plagio que 
 -	**Cláusula de arrepentimiento.**
 
 <p align="justify">
-Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, **antes de que el equipo docente haya levantado una sospecha**, se considerará como un atenuante a la hora de definir las sanciones. 
+Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, <b>antes de que el equipo docente haya levantado una sospecha</b>, se considerará como un atenuante a la hora de definir las sanciones. 
 La cláusula de arrepentimiento solo es válida durante los 3 días hábiles siguientes luego de una entrega.
 </p>
 
