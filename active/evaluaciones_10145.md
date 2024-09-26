@@ -107,7 +107,7 @@ promedio_tareas = (T1 + T2)/2
 promedio_pruebas = (P1 + P2)/2
 promedio_ensayos = (E1 + E2)/2
 promedio_final = round(A * 0.15 + promedio_tareas * 0.4 + promedio_pruebas * 0.2 + promedio_ensayos * 0.2, 1)
-if asistencia > 0.75:
+if asistencia >= 0.75:
   if promedio_final >= 4.5:
     promedio_final = promedio_final
   elif promedio_final >= 4.0 and promedio_tareas >= 4.0 and promedio_pruebas >= 4.0:
