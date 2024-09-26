@@ -90,12 +90,12 @@
 |Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
 | ------ | ------| ------- |------- |
 |Actividades en clases (A)| 15%| En horario de clases | Todas las clases |
-|Tarea 1 (T1)| 20%| - | - |
-|Tarea 2 (T2)| 20%| - | - |
-|Ensayo 1 (E2)| 2.5%| - | - |
-|Ensayo 2 (E2) |2.5%| - | - |
-|Prueba 1 (P1) | 20%| - | - |
-|Prueba 2 (P2) | 20%| - | - |
+|Tarea 1 (T1)| 20%| 04-11-24 | 16-11-24 |
+|Tarea 2 (T2)| 20%| 09-12-204 | 20-12-24 |
+|Ensayo 1 (E1)| 2.5%| 28-10-24 | 02-11-24 |
+|Ensayo 2 (E2) |2.5%| 02-12-24 | 06-12-24 |
+|Prueba 1 (P1) | 20%| - | Semana 04-11-24, en horario de laboratorio |
+|Prueba 2 (P2) | 20%| - | Semana 09-12-24, en horario de laboratorio |
 
 El estudiante debe tener un **75%** de asistencia para aprobar la asignatura.
 
@@ -107,13 +107,15 @@ promedio_tareas = (T1 + T2)/2
 promedio_pruebas = (P1 + P2)/2
 promedio_ensayos = (E1 + E2)/2
 promedio_final = round(A * 0.15 + promedio_tareas * 0.4 + promedio_pruebas * 0.2 + promedio_ensayos * 0.2, 1)
-
-if promedio_final >= 4.5:
-  promedio_final = promedio_final
-elif promedio_final >= 4.0 and promedio_tareas >= 4.0 and promedio_pruebas >= 4.0:
-  promedio_final = promedio_final
+if asistencia > 0.75:
+  if promedio_final >= 4.5:
+    promedio_final = promedio_final
+  elif promedio_final >= 4.0 and promedio_tareas >= 4.0 and promedio_pruebas >= 4.0:
+    promedio_final = promedio_final
+  else:
+    promedio_final = promedio_final * 0.6 + examen * 0.4
 else:
-  promedio_final = promedio_final * 0.6 + examen * 0.4
+   promedio_final = min([promedio_final, 3.5])
 
 ```
 
@@ -123,25 +125,25 @@ else:
 
 #### CALENDARIO DE GUÍAS Y TAREAS
 
-| Semana | Fecha      | Temario semanal*                   | Guías/Tareas                                  |
-|--------|------------|------------------------------------|-----------------------------------------------|
-| 1      | 23-08-2023 | 01. Elementos básicos de Python    |                                               |
-| 2      | 04-09-2023 | 02. Strings e I/O                  | 00. Conociendo Replit                         |
-| RECESO | 11-09-2023 |                                    |                                               |
-| 3      | 18-09-2023 | 03. Control de Flujo               | 01. I/O                                       |
-| 4      | 25-09-2023 | 04. Iteraciones                    | 02. If                                        |
-| 5      | 02-10-2023 | 05. Listas                         | 03. Iteración                                 |
-| 6      | 09-10-2023 |                                    | 04. Listas                                    |
-| 7      | 16-10-2023 | 06. Funciones nativas e importadas | Tarea 1                                       |
-| 8      | 23-10-2023 | 07. Funciones propias              | 05. Listas de listas, listas de strings, etc. |
-| RECESO | 30-10-2023 |                                    |                                               |
-| 9      | 06-11-2023 | 08. Recursión                      | Tarea 2                                       |
-| 10     | 13-11-2023 | 09. Archivos                       | 06. Funciones propias                         |
-| 11     | 20-11-2023 |                                    | 07. Recursión                                 |
-| 12     | 27-11-2023 | 10. Programación Científica        | Tarea 3                                       |
-| 13     | 04-12-2023 |                                    | 08. Archivos                                  |
-| 14     | 11-12-2023 |                                    |                                               |
-| 15     | 18-12-2023 |                                    |                                               |
+| Semana | Fecha    | Temario semanal*                   | Evaluaciones          |
+|--------|----------|------------------------------------|-----------------------|
+| 1      | 23-09-24 | 01. Elementos básicos de Python    |                       |
+| 2      | 30-09-24 | 02. Strings e I/O                  |                       |
+| 3      | 07-10-24 | 03. Control de Flujo               |                       |
+| 4      | 14-10-24 | 04. Iteraciones                    |                       |
+| 5      | 21-10-24 | 05. Listas                         |                       |
+| 6      | 28-10-24 |                                    | E1                    |
+| 7      | 04-11-24 | 06. Funciones nativas e importadas | P1                    |
+| 8      | 11-11-24 | Semana de pruebas - no hay clases  | T1                    |
+| 9      | 18-11-24 | 07. Funciones propias              |                       |
+| 10     | 25-11-24 | 08. Archivos                       |                       |
+| 11     | 02-12-24 | 08. Recursión                      | E2                    |
+| 12     | 09-12-24 |                                    | P2                    |
+| 13     | 16-12-24 | Semana de pruebas - no hay clases  | T2                    |
+| 14     | 23-12-24 |                                    |                       |
+| 15     | 30-12-24 | Semana de pruebas - no hay clases  |                       |
+| 16     | 06-01-25 |                                    | Ex                    |
+| 17     | 13-01-25 |                                    | Prueba de suficiencia |
 
 * Puede variar dependiendo de feriados, suspensiones y otros.
 
@@ -151,99 +153,7 @@ else:
 
 ## LABORATORIO
 
-### RESUMEN DE EVALUACIONES
-
-|Calificación| Ponderación | Fecha de entrega |
-| ------ |------- |------- |
-|Entrega 1* (e1)| 10%| 07/10 12:45 PM |
-|Entrega 2 (e2)| 20%| 18/11 12:45 PM |
-|Entrega 3* (e3)| 30%| 09/12 12:45 PM|
-|Control 1++ (c1)| 20%| -| Semana 23/10 |
-|Control 2++ (c2)| 20%| -| Semana 27/11 |
-
-* Presentación en horario de clases.
-
-++ En el horario de clases correspondiente.
-
-#### FECHAS CONTROL 1
-
-| CURSO | PROFESOR          | LAB | HORARIO | FECHA CONTROL 1 |
-| ----- | ----------------- | --- | ------- | --------------- |
-| 10145 | Carlos Soto       | L1  | M1W1    | 24 de octubre   |
-| 10145 | Pablo Lorca       | L2  | M1W1    | 24 de octubre   |
-| 10145 | Mauricio Hidalgo  | L3  | L4J2    | 23 de octubre   |
-| 10145 | Luis Corral       | L4  | L4J2    | 23 de octubre   |
-| 10145 | Pablo Lorca       | L5  | L4J2    | 23 de octubre   |
-| 10145 | Gabriela Yupanqui | L6  | L1M1    | 23 de octubre   |
-| 10145 | Javier Salazar    | L7  | L1M1    | 23 de octubre   |
-| 10145 | César Rivera      | L8  | L3M3    | 23 de octubre   |
-| 10145 | Pablo Lorca       | L9  | L3M3    | 23 de octubre   |
-| 10145 | Leonel Gajardo    | L10 | J1S1    | 11 de noviembre |
-| 10145 | Juan González     | L11 | V3S1    | 11 de noviembre |
-| 10145 | Miguel Salinas    | L12 | V3S1    | 11 de noviembre |
-| 10145 | Ricardo Corbinaud | L13 | V3S1    | 11 de noviembre |
-| 10145 | Jacqueline Köhler | L14 | M2W2    | 24 de octubre   |
-| 10145 | Aileen Esparza    | L15 | M2W2    | 24 de octubre   |
-| 10145 | Carlos Soto       | L16 | M2W2    | 24 de octubre   |
-| 10145 | Pablo Lorca       | L17 | M2W2    | 24 de octubre   |
-| 10145 | Jacqueline Köhler | L18 | L5W5    | 23 de octubre   |
-| 10145 | Patricia Mellado  | L19 | L5W5    | 23 de octubre   |
-| 10145 | Ricardo Corbinaud | L20 | L6W6    | 23 de octubre   |
-| 10145 | Alfredo González  | L21 | L6W6    | 23 de octubre   |
-| 10145 | César Rivera      | L22 | L6S3    | 23 de octubre   |
-| 10145 | Bastián Loyola    | L23 | L6S3    | 23 de octubre   |
-| 10145 | Carlos Soto       | L24 | M4V6    | 24 de octubre   |
-| 10145 | Javier Salazar    | L25 | M4V6    | 24 de octubre   |
-| 10145 | José Guerra       | L26 | M4V6    | 24 de octubre   |
-| 10145 | Mauricio Hidalgo  | L27 | W4J4    | 25 de octubre   |
-| 10145 | Juan González     | L28 | W4J4    | 25 de octubre   |
-| 10145 | Carlos Soto       | L29 | W4J4    | 25 de octubre   |
-| 10145 | Miguel Truffa     | L30 | W4J4    | 25 de octubre   |
-| 10145 | Luis Corral       | L31 | L6M6    | 23 de octubre   |
-| 10145 | Camilo Berríos    | L32 | L6M6    | 23 de octubre   |
-| 10145 | Patricia Mellado  | L33 | L6M6    | 23 de octubre   |
-| 10145 | Alfredo González  | L34 | S2S3    | 11 de noviembre |
-| 10145 | Andrés Muñoz      | L35 | S2S3    | 11 de noviembre |
-| 10145 | Patricia Mellado  | L36 | S2S3    | 11 de noviembre |
-
-El promedio final se calcula como:
-
-```python
-if round(sum([c1, c2])/2, 1) >= 4.0 and asistencia == 100%:
-  promedio_final = round(e1 * 0.1 + e2 * 0.2 + e3 * 0.3 + c1 * 0.2 + c2 * 0.2, 1)
-else:
-  promedio_final = min(promedio_final, 3.5)
-
-```
-
-### ENTREGAS
-
-Todas las entregas con código tienen un requisito de avance mínimo para ser revisadas. Es decir, **entregas que no alcancen el mínimo exigido, tienen nota mínima en toda la entrega**.
-
-#### ENTREGA 1
-* Presentación e informe
-
-
-#### ENTREGA 2
-* Informe y avance de código
-
-#### ENTREGA 3
-* Presentación, informe y solución final.
-
-
-### CONTROLES
-
-Se resuelve en horario de laboratorio durante la clase.
-
-
-#### CONTROL 1
-
-* Contempla todos los contenidos de la unidad I. 
-
-
-#### CONTROL 2
-* Contempla todos los contenidos de las unidades I, II y III hasta archivos.
-
+# EN CONSTRUCCIÓN
 
 
 ## NOTA FINAL
@@ -257,6 +167,6 @@ else:
 
 ```
 
-Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda para el siguiente semestre académico (1/2024) de acuerdo al artículo 6.4 del reglamento complementario de la Facultad de Ingeniería.
+Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda por dos semestres consecutivos de acuerdo al artículo 6.4 del reglamento complementario de la Facultad de Ingeniería.
 
 
