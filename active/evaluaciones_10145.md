@@ -84,19 +84,18 @@
     * Limitaciones y ventajas de la recursión.
     * Recursión sobre objetos.
 
-
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha |
-| ------ | ------| ------- |
-|Actividades en clases (A)| 15%| En horario de clases |
-|Control 1 (C1)| 5%| 26-04-25 |
-|Control 2 (C2)| 5%| 31-05-25 |
-|Control 3 (C3)| 5%| 21-06-25 |
-|Prueba 1 (P1) | 35%| 10-05-25 | 
-|Prueba 2 (P2) | 35%| 28-06-25 | 
+|Calificación| Ponderación | Fecha | Contenidos |
+| ------ | ------| ------- | ------- |
+|Actividades en clases (A)| 15%| En horario de clases | |
+|Control 1 (C1)| 5%| 26-04-25 | Hasta Iteraciones|
+|Control 2 (C2)| 5%| 31-05-25 | Hasta Funciones nativas e importadas |
+|Control 3 (C3)| 5%| 21-06-25 | Hasta Archivos |
+|Prueba 1 (P1) | 35%| 10-05-25 | Hasta Listas (incluyendo Listas de listas) |
+|Prueba 2 (P2) | 35%| 28-06-25 | Hasta Recursión |
 
-El estudiante debe tener un **75%** de asistencia para aprobar la asignatura.
+El estudiante debe tener un **75%** de asistencia para aprobar la asignatura. Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
@@ -153,14 +152,14 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha |
-| ------ | ------| ------- |
-|Tarea 1 (T1)  | 16.6%| 28-04-25 |
-|Tarea 2 (T2)  | 16.6%| 02-06-25 |
-|Tarea 3 (T3)  | 16.6%| 23-06-25 |
-|Proyecto (P1) | 1%   | 21-04-25 |
-|Proyecto (P2) | 9%   | 09-06-25 |
-|Proyecto (P3) | 40%  | 23-06-25 |
+|Calificación| Ponderación | Fecha | Contenidos |
+| ------ | ------| ------- | ------- |
+|Tarea 1 (T1)  | 33.3%| 28-04-25 | Hasta Listas |
+|Tarea 2 (T2)  | 33.3%| 02-06-25 | Hasta Funciones propias |
+|Tarea 3 (T3)  | 33.3%| 23-06-25 | Hasta Recursión |
+|Proyecto (P1) | 1%   | 21-04-25 | Inscripción de grupos |
+|Proyecto (P2) | 9%   | 09-06-25 | Primer avance (presentación) |
+|Proyecto (P3) | 40%  | 23-06-25 |Proyecto terminado |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
