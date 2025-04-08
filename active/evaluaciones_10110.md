@@ -87,15 +87,14 @@
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha de publicación | Fecha de entrega |
-| ------ | ------| ------- |------- |
-|Actividades en clases (A)| 15%| En horario de clases | Todas las clases |
-|Tarea 1 (T1)| 20%| 04-11-24 | 16-11-24 |
-|Tarea 2 (T2)| 20%| 09-12-204 | 20-12-24 |
-|Ensayo 1 (E1)| 2.5%| 28-10-24 | 02-11-24 |
-|Ensayo 2 (E2) |2.5%| 02-12-24 | 06-12-24 |
-|Prueba 1 (P1) | 20%| - | Semana 04-11-24, en horario de laboratorio |
-|Prueba 2 (P2) | 20%| - | Semana 09-12-24, en horario de laboratorio |
+|Calificación| Ponderación | Fecha |
+| ------ | ------| ------- |
+|Actividades en clases (A)| 15%| En horario de clases |
+|Control 1 (C1)| 5%| 26-04-25 |
+|Control 2 (C2)| 5%| 31-05-25 |
+|Control 3 (C3)| 5%| 21-06-25 |
+|Prueba 1 (P1) | 35%| 10-05-25 | 
+|Prueba 2 (P2) | 35%| 28-06-25 | 
 
 El estudiante debe tener un **75%** de asistencia para aprobar la asignatura.
 
@@ -103,10 +102,9 @@ El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
 
-promedio_tareas = (T1 + T2)/2
+promedio_controles = (C1 + C2 + C3)/3
 promedio_pruebas = (P1 + P2)/2
-promedio_ensayos = (E1 + E2)/2
-promedio_final = round(A * 0.15 + promedio_tareas * 0.4 + promedio_pruebas * 0.2 + promedio_ensayos * 0.2, 1)
+promedio_final = round(A * 0.15 + promedio_controles * 0.15 + promedio_pruebas * 0.7, 1)
 if asistencia >= 0.75:
   if promedio_final >= 4.5:
     promedio_final = promedio_final
@@ -127,23 +125,23 @@ else:
 
 | Semana | Fecha    | Temario semanal*                   | Evaluaciones          |
 |--------|----------|------------------------------------|-----------------------|
-| 1      | 23-09-24 | 01. Elementos básicos de Python    |                       |
-| 2      | 30-09-24 | 02. Strings e I/O                  |                       |
-| 3      | 07-10-24 | 03. Control de Flujo               |                       |
-| 4      | 14-10-24 | 04. Iteraciones                    |                       |
-| 5      | 21-10-24 | 05. Listas                         |                       |
-| 6      | 28-10-24 |                                    | E1                    |
-| 7      | 04-11-24 | 06. Funciones nativas e importadas | P1                    |
-| 8      | 11-11-24 | Semana de pruebas - no hay clases  | T1                    |
-| 9      | 18-11-24 | 07. Funciones propias              |                       |
-| 10     | 25-11-24 | 08. Archivos                       |                       |
-| 11     | 02-12-24 | 08. Recursión                      | E2                    |
-| 12     | 09-12-24 |                                    | P2                    |
-| 13     | 16-12-24 | Semana de pruebas - no hay clases  | T2                    |
-| 14     | 23-12-24 |                                    |                       |
-| 15     | 30-12-24 | Semana de pruebas - no hay clases  |                       |
-| 16     | 06-01-25 |                                    | Ex                    |
-| 17     | 13-01-25 |                                    | Prueba de suficiencia |
+| 1      | 17-03-25 | 01. Elementos básicos de Python    |                       |
+| 2      | 24-03-25 | 02. Strings e I/O                  |                       |
+| 3      | 31-03-25 | 03. Control de Flujo               |                       |
+| 4      | 07-04-25 | 04. Iteraciones                    |                       |
+| 5      | 14-04-25 | 05. Listas                         |                       |
+| 6      | 21-04-25 |                                    | C1                    |
+| 7      | 28-04-25 |                                    |                       |
+| 8      | 05-05-25 | Semana de pruebas - no hay clases  | P1                    |
+| 9      | 12-05-25 | 06. Funciones nativas e importadas |                       |
+| 10     | 26-05-25 | 07. Funciones propias              | C2                    |
+| 11     | 02-06-25 | 08. Archivos                       |                       |
+| 12     | 09-06-25 | 09. Recursión                      |                       |
+| 13     | 16-06-25 |                                    | C3                    |
+| 14     | 23-06-25 | Semana de pruebas - no hay clases  | P2                    |
+| 15     | 30-06-25 |                                    |                       |
+| 16     | 07-07-25 | Semana de pruebas - no hay clases  | Ex                    |
+| 17     | 14-07-25 |                                    |                       |
 
 * Puede variar dependiendo de feriados, suspensiones y otros.
 
@@ -153,8 +151,28 @@ else:
 
 ## LABORATORIO
 
-# EN CONSTRUCCIÓN
+### RESUMEN DE EVALUACIONES
 
+|Calificación| Ponderación | Fecha |
+| ------ | ------| ------- |
+|Tarea 1 (T1)  | 33.3%| 28-04-25 |
+|Tarea 2 (T2)  | 33.3%| 02-06-25 |
+|Tarea 3 (T3)  | 33.3%| 23-06-25 |
+
+El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
+
+El cálculo de la nota se hace siguiendo el siguiente algoritmo:
+
+```python
+
+promedio_tareas = (T1 + T2 + T3)/3
+promedio_final = round(promedio_tareas, 1)
+if asistencia >= 1:
+    promedio_final = promedio_final
+else:
+   promedio_final = min([promedio_final, 3.5])
+
+```
 
 ## NOTA FINAL
 
